@@ -1,18 +1,15 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# GIS related temp files
 
-# Other files and folders
-.settings/
+#si el fitxer esta dins de la carpeta data ho fiquem aixi
+data/*.shp 
+*.dbf
+*.shx
+*.wal
+*.h...
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Office related 
+*.temp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Secrets
+password*
+pass*
